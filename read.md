@@ -4,34 +4,30 @@ OpenVPN installer for Debian
 
 ## Penggunaan 
 
-Script pertama :
+Pertama :
 
 ```bash
 curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ```
 
-Then run it:
+Kemudian:
 
 ```sh
 ./openvpn-install.sh
 ```
 
-You need to run the script as root and have the TUN module enabled.
+Anda perlu menjalankan skrip sebagai root dan mengaktifkan TUN module.
 
-The first time you run it, you'll have to follow the assistant and answer a few questions to setup your VPN server.
-
-When OpenVPN is installed, you can run the script again, and you will get the choice to:
+Saat OpenVPN terinstal, Anda dapat menjalankan skrip lagi, dan Anda akan mendapatkan pilihan untuk:
 
 - Add a client
 - Remove a client
 - Uninstall OpenVPN
 
-In your home directory, you will have `.ovpn` files. These are the client configuration files. Download them from your server and connect using your favorite OpenVPN client.
+Di direktori home, Anda akan menemukan file `.ovpn`. Ini adalah file konfigurasi klien. Unduh file tersebut dari server Anda dan hubungkan menggunakan klien OpenVPN favorit Anda.
 
-If you have any question, head to the [FAQ](#faq) first. Please read everything before opening an issue.
 
-**PLEASE do not send me emails or private messages asking for help.** The only place to get help is the issues. Other people may be able to help and in the future, other users may also run into the same issue as you. My time is not available for free just for you, you're not special.
 
 ### Headless install
 
@@ -86,5 +82,3 @@ export PASS="1"
 ```
 
 
-
-[![Star History Chart](https://api.star-history.com/svg?repos=angristan/openvpn-install&type=Date)](https://star-history.com/#angristan/openvpn-install&Date)
