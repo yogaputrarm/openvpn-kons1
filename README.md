@@ -1,6 +1,5 @@
-# openvpn-install
-
-Instal OpenVPN for Debian
+<h2 align="center">Instal OpenVPN for Debian</h2>
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم
 
 ## Bahan
 - VM OS Debian 
