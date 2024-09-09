@@ -16,7 +16,7 @@ ip a
 
 Instal dulu packet curl, kemudian masukkan alamat berikut:
 ```
-curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+curl -O https://raw.githubusercontent.com/yogaputrarm/openvpn-kons1/main/openvpn-install.sh
 ```
 
 Kemudian ubah aksesnya
